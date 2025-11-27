@@ -1,0 +1,104 @@
+body {
+    font-family: poppins, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    max-width: 400px;
+    background: white;
+    padding: 25px;
+    margin: 80px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,.2);
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: #4b84ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.add-box {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin: 8px 15px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08);
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: .6;
+}
+
+.quote-box {
+    margin: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-left: 4px solid #4b84ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+
+}
+
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .card,
+body.dark li,
+body.dark .header,
+body.dark .quote-box {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0,0,0,.6);
+}
+
+body.dark input,
+body.dark button {
+  background: #2b2b2b;
+  color: #eee;
+  border: 1px solid #444;
+}
+
+body.dark button:hover {
+  background: #3a3a3a;
+}
+
+body.dark .done {
+  color: #aaa;
+}
